@@ -1,0 +1,33 @@
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-start;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-image: url("./../images/bg-triangle.svg");
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: center;
+    
+}
+
+.first{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

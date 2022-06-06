@@ -1,0 +1,22 @@
+.home{
+    height: 100vh;
+    width: 100vw;
+    background:  radial-gradient(circle,hsl(214, 47%, 23%) 0%, hsl(237, 49%, 15%) 100%);
+    overflow: hidden;
+}
+
+.rulesbutton{
+    position: absolute;
+    top: 90%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 5px 25px;
+}

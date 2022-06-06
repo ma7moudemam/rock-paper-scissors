@@ -1,0 +1,29 @@
+.finalResult{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 80px;
+    margin: 0 auto;
+}
+
+
+.finalResult h1{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.finalResult button{
+    padding: 10px 80px;
+    background-color: #fff;
+    border:none;
+    outline: none;
+    border-radius: 8px;
+    margin-top: 15px;  
+    text-transform: uppercase;
+    font-weight: bold;
+    color:hsl(214, 47%, 23%); 
+    cursor: pointer;
+}
