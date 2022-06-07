@@ -28,6 +28,11 @@
     align-items: center;
 }
 
-
+@media screen and (max-width: 480px) {
+    .game{
+        width: 80%;
+    }
+}
+    
 
 

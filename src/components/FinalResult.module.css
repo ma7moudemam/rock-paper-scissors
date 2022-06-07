@@ -27,3 +27,19 @@
     color:hsl(214, 47%, 23%); 
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    .finalResult{
+        width: 50%;
+        position: absolute;
+        top: 60%;
+    }
+    
+    
+.finalResult h1{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+}
+    

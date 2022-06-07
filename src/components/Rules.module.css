@@ -36,3 +36,12 @@
     margin-top: 0;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 480px){
+    .rules{
+      
+        transform: translate(10%, -50%);
+    }
+   
+    
+}

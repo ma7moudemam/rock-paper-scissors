@@ -20,3 +20,16 @@
     transition: all 0.3s ease-in-out;
     padding: 5px 25px;
 }
+
+@media screen and (max-width: 480px) {
+
+    .home{
+        max-height:100%;
+        max-width:100%;
+    }
+    .rulesbutton{
+        top: 90%;
+        left: 50%;
+    }
+}
+    

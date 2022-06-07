@@ -11,7 +11,7 @@ const Rules = (props) => {
     <div className={classes.rules}>
         <div className={classes.header}>
         <h1>Rules</h1>
-        <i class="far fa-times" onClick={props.onClose}></i>
+        <i className="far fa-times" onClick={props.onClose}></i>
         </div>
         <img src={RulesPic} alt="Rules" />
     </div>

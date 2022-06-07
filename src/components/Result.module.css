@@ -20,3 +20,19 @@
     font-size: 1.5rem;
     margin-bottom:20px;
 }
+
+@media screen and (max-width: 480px) {
+   .result{
+       width: 90%;
+   }
+
+    .group{
+         width: 100%;
+         flex-direction: column-reverse;
+    }
+   .group h1{
+         font-size: 1.2rem;
+   }
+   
+}
+    

@@ -14,7 +14,7 @@ const Result = (props) => {
           <Circle name={props.selectPicked}/>
           </div>
           {
-            props.result &&  <FinalResult onPlay={props.onPlay} result={props.result}/>
+            props.result &&  <FinalResult className={classes.middle} onPlay={props.onPlay} result={props.result}/>
           }
           <div className={classes.group}>
             <h1>the house picked</h1>
